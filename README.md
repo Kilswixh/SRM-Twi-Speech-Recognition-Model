@@ -35,6 +35,7 @@ Test set: Held out for final evaluation.
 
 Additionally, a new test set of 20 sentences was compiled to further evaluate the model's performance.
 
+In this project, they were obtained from : https://github.com/Ashesi-Org/Financial-Inclusion-Speech-Dataset
 # Model Training
 ## Approach
 Pre-trained Models: Leveraged a pre-trained speech recognition model (e.g., Wav2Vec 2.0) and fine-tuned it on the Twi dataset.
