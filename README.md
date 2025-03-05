@@ -51,7 +51,7 @@ Fine-tune the pre-trained model on the Twi dataset.
 
 Save the best model checkpoint based on validation performance.
 
-# Tools and Libraries
+## Tools and Libraries
 1. Hugging Face Transformers
 
 2. PyTorch
@@ -106,21 +106,21 @@ The model will process the audio and return the transcription.
 
 import requests
 
-# API endpoint
+### API endpoint
 API_URL = "https://huggingface.co/spaces/calvin9090/Twi_Dataset_Team3/api/predict"
 
-# Upload audio file
+### Upload audio file
 files = {"file": open("path_to_audio_file.wav", "rb")}
 response = requests.post(API_URL, files=files)
 
-# Get transcription
+### Get transcription
 transcription = response.json()["transcription"]
 print("Transcription:", transcription)
 
-## Submission
+### Submission
 The following items are included in the submission:
 
-Python Notebook:
+### Python Notebook:
 
 A clear and well-documented Jupyter notebook containing all code used for training, prediction, and evaluation.
 
