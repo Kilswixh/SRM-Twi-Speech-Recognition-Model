@@ -59,35 +59,35 @@ Save the best model checkpoint based on validation performance.
 3. Datasets library for data preprocessing
 
 # Evaluation
-## Metrics
+### Metrics
 The model was evaluated using the following metrics:
 
 Word Error Rate (WER): Measures the accuracy of the transcriptions.
 
 Character Error Rate (CER): Provides a finer-grained evaluation of transcription accuracy.
 
-# Test Sets
+### Test Sets
 Held-out Test Set: A portion of the original dataset was held out for evaluation.
 
 New Test Set: A new set of 20 sentences was compiled to test the model's generalization ability.
 
-# Results
+### Results
 WER on Held-out Test Set: [8.5094]
 
 CER on Held-out Test Set: [8.8481]
 
 
-# Deployment
+### Deployment
 The model was deployed to Hugging Face Spaces, providing an API endpoint for transcribing Twi audio files. The deployment includes:
 
 A user-friendly interface for uploading audio files.
 
 A backend that processes the audio and returns the transcription.
 
-# Deployment Link
+### Deployment Link
 Twi Speech Recognition Model on Hugging Face : https://huggingface.co/spaces/calvin9090/Twi_Dataset_Team3
 
-# API Usage
+### API Usage
 To use the deployed model, follow these steps:
 
 Access the API:
